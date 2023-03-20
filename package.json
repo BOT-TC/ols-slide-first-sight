@@ -1,0 +1,17 @@
+{
+  "name": "open-learning-server-first-sighting",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.3",
+    "@slidev/theme-default": "*",
+    "vite": "^4.2.1"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.31.2"
+  }
+}
